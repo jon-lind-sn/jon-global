@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>MIM Fix Script - Jon Scope</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[/********************/
+// MIM Test B
+/********************/
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2026-02-19 00:52:24</sys_created_on>
+        <sys_id>2da064df978ffa50c24e7d56f053afb7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MIM Fix Script - Jon Scope</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jon Global">4520e04b9753bed0c24e7d56f053afc8</sys_scope>
+        <sys_update_name>sys_script_fix_2da064df978ffa50c24e7d56f053afb7</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2026-03-02 16:43:53</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Jon Global">4520e04b9753bed0c24e7d56f053afc8</claim_owner_scope>
+        <claim_timestamp>19caf6f4f980000001</claim_timestamp>
+        <metadata_update_name>sys_script_fix_2da064df978ffa50c24e7d56f053afb7</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Jon Global</previous_claim_name>
+        <previous_claim_scope>4520e04b9753bed0c24e7d56f053afc8</previous_claim_scope>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2026-03-02 16:43:53</sys_created_on>
+        <sys_id>22e36c839793bed0c24e7d56f053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2026-03-02 16:43:53</sys_updated_on>
+    </sys_claim>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2da064df978ffa50c24e7d56f053afb7</id>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2026-02-19 00:52:24</sys_created_on>
+        <sys_id>a9a064df978ffa50c24e7d56f053afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2026-02-19 00:52:24</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
